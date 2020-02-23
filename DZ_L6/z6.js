@@ -1,7 +1,7 @@
 //Вывести k-ое число Фибоначчи (вводится с клавиатуры)
 const k = Number(prompt('Введите k-ое число Фибоначчи'));
 let fk = 0;
-let f1 = 0
+let f1 = 0;
 let f2 = 1;
 switch (k) {
   case 1:
@@ -17,4 +17,4 @@ switch (k) {
       f2 = fk
     }
 }
-console.log(fk)
+console.log(fk);
