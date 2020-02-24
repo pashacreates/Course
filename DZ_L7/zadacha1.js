@@ -13,13 +13,13 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(lw);
 
-let glas = 'AaEeYyIiOoUu'
+let glas = 'AaEeYyIiOoUu';
 let sumGlas = 0;
 for (j = 0; j < s.length; j++) {
   for (k = 0; k < 12; k++) {
     if (s[j] === glas.split('')[k]) {
-      sumGlas++
+      sumGlas++;
     }
   }
 }
-console.log(sumGlas)
+console.log(sumGlas);
