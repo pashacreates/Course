@@ -1,0 +1,255 @@
+body {
+    font-family: 'Scada', sans-serif;
+    background-color: rgb(219, 219, 219);
+}
+
+a {
+    color: rgb(219, 32, 72);
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav {
+    margin: 0 auto;
+    height: 65px;
+    color: rgb(248, 51, 94);
+    background: rgba(58, 58, 58, 0.8);
+}
+
+.menu {
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.menu-item {
+    height: 65px;
+    padding-top: 10px;
+}
+
+.menu-item a:hover {
+    color: rgb(241, 241, 241);
+    background-color: rgb(248, 51, 94);
+    border-radius: .25rem;
+}
+
+.logo {
+    padding: 10px 20px;
+    float: left;
+}
+
+.main-screen {
+    height: 100vh;
+    padding-top: 70vh;
+}
+
+.order {
+    padding: 5px 25px 10px;
+    margin: 0px;
+    background: rgba(58, 58, 58, 0.6);
+    color: white;
+    border-radius: .25rem;
+}
+
+.order-label {
+    padding-left: 15px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-item {
+    padding: 1px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn {
+    border: 3px;
+    color: white;
+    background-color: rgb(219, 32, 72);
+}
+
+.btn:hover {
+    border: 10px;
+    color: rgb(219, 32, 72);
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(172, 27, 27);
+    outline: rgb(219, 32, 72);
+}
+
+.btn:focus {
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(172, 27, 27);
+    outline: rgb(219, 32, 72);
+}
+
+.btn:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(172, 27, 27);
+    outline: rgb(219, 32, 72);
+}
+
+.advantage {
+    padding: 40px;
+    background-color: rgb(241, 241, 241);
+}
+
+.carousel-caption {
+    background-color: rgba(58, 58, 58, 0.6);
+    border-radius: .25rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgba(58, 58, 58, 0.9);
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 0px;
+    color: rgb(241, 241, 241);
+}
+
+.social {
+    display: flex;
+    padding-left: 0px;
+    font-size: 30px;
+}
+
+.social li {
+    padding-left: 10px;
+}
+
+
+/* Modal */
+
+.myModal {
+    color: rgb(241, 241, 241);
+    background-color: rgba(58, 58, 58, 0.7);
+}
+
+.table,
+button span {
+    color: rgb(241, 241, 241);
+}
+
+
+/* info page */
+
+.bus-carousel {
+    width: 75%;
+    margin: 30px auto;
+}
+
+
+/* about page */
+
+.about {
+    margin: 20px 10px 60px;
+    padding: 30px;
+    background: white;
+}
+
+
+/* Фоновой слайдер */
+
+.body-slides {
+    margin: 0;
+    padding: 0;
+    z-index: -2;
+    background: #000;
+}
+
+.body-slides li div {
+    padding-top: 30vh;
+    padding-left: 60%;
+    font-size: 70px;
+    color: rgb(241, 241, 241);
+    text-shadow: 4px 2px 4px rgb(0, 0, 0);
+}
+
+.body-slides,
+.body-slides:after {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.body-slides li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    opacity: 0;
+    animation: anim_slides 25s linear infinite 0s;
+}
+
+.body-slides li:nth-child(1) {
+    background-image: url(img/city/piter.jpg)
+}
+
+.body-slides li:nth-child(2) {
+    animation-delay: 5.0s;
+    background-image: url(img/city/moscow.jpg)
+}
+
+.body-slides li:nth-child(3) {
+    animation-delay: 10.0s;
+    background-image: url(img/city/kiev.jpg)
+}
+
+.body-slides li:nth-child(4) {
+    animation-delay: 15.0s;
+    background-image: url(img/city/praga.jpg)
+}
+
+.body-slides li:nth-child(5) {
+    animation-delay: 20.0s;
+    background-image: url(img/city/viln.jpg)
+}
+
+@keyframes anim_slides {
+    0% {
+        opacity: 0;
+    }
+    4% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    22% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
