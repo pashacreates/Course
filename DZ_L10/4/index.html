@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FruitMarket</title>
+    <style>
+        h1 {
+            margin: 0 10%;
+            padding: 10px 0;
+            font-size: 2rem;
+            text-align: center;
+            letter-spacing: 1.3em;
+            text-transform: uppercase;
+            color: white;
+            background-color: #00b86b;
+        }
+        
+        img {
+            width: calc(100% - 2px);
+            padding: 1px;
+        }
+        
+        #list {
+            display: flex;
+            padding: 5px 7%;
+            font: 22px sans-serif;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        
+        li {
+            width: calc(25% - 20px);
+            list-style: none;
+            margin: 10px 5px;
+            border-radius: 10px;
+            transition: all ease-in 100ms;
+        }
+        
+        li:hover {
+            background-color: #65fdf3;
+            box-shadow: 2px 2px 5px black;
+        }
+        
+        p:first-child {
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+        
+        p:nth-child(3) {
+            font-size: 0.7em;
+            font-style: italic;
+            color: darkslategrey;
+        }
+        
+        p:nth-child(3)::first-letter {
+            text-transform: uppercase;
+            font-size: 1.3em;
+            color: green;
+        }
+        
+        p:nth-child(5) {
+            font-size: .5em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fruit Market</h1>
+    <ul id="list"></ul>
+    <script src="script.js"></script>
+</body>
+
+</html>
