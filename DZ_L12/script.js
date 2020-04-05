@@ -21,19 +21,6 @@ const staff = [{
 }];
 const tbody = document.getElementById('tbody');
 
-// const renderStaff = function(a) {
-//     tbody.insertAdjacentHTML('beforeend', `
-//         <tr>
-//             <td>${a.fullName}</td>
-//             <td>${a.post}</td>
-//             <td>${a.startDate.toLocaleDateString()}</td>
-//             <td>${a.salary}</td>
-//             <td><button  id=''>DEL</button></td>
-//         </tr>`);
-// };
-
-// staff.forEach(item => renderStaff(item));
-
 const renderStaff = function() {
     tbody.innerText = "";
     for (let i = 0; i < staff.length; i++) {
