@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ДЗ к лекции №13</title>
+    <style>
+        div {
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        
+        .invisible {
+            display: none;
+        }
+        
+        .context-menu {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            list-style: none;
+            cursor: pointer;
+        }
+        
+        .context-menu li {
+            background-color: aqua;
+            padding: 4px 12px;
+        }
+        
+        .context-menu li:hover {
+            background-color: aquamarine;
+        }
+        
+        .context-menu li>li:hover {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Задача #1</p>
+        <form>
+            <label>
+                <p>Введите только латинские гласные буквы</p>
+                <input type="text" id="input" title="Только латинские гласные буквы" maxlength="12">
+            </label>
+        </form>
+    </div>
+    <ul class="context-menu invisible" id="contextMenu">
+        <li>menu#1</li>
+        <li>menu#2</li>
+    </ul>
+    <div id="textWithLinks">
+        <p>Задача #3</p>
+        <p>Перед ними простирался луг, полого спускавшийся вниз. Вдали мерцали огоньки <a href="https://ru.wikipedia.org/wiki/Музей_словацкой_деревни">словацкой деревни</a>. Штайнер развязал свой рюкзак, чтобы достать <a href="https://ru.wikipedia.org/wiki/Сигарета">сигареты</a>.
+            При этом взгляд его упал на <a href="https://ru.wikipedia.org/wiki/Чемодан">чемодан</a> Керна:</p>
+        <p>– Я решил, что <a href="https://ru.wikipedia.org/wiki/Рюкзак">рюкзак</a> практичнее, чем чемодан. Он не так бросается в глаза. Тебя принимают за безобидного путешественника.</p>
+        <p>– Рюкзаки тоже проверяют, – ответил Керн. – Проверяют все, что несет в себе следы
+            <a href="https://ru.wikipedia.org/wiki/Бедность">бедности</a>. Было бы лучше всего, если б у тебя была <a href="https://ru.wikipedia.org/wiki/автомашина">автомашина</a>.</p>
+        <p>Они закурили.</p>
+        <p>– Через час я пойду назад, – сказал Штайнер. – А ты?</p>
+        <p>– Я попытаюсь добраться до <a href="https://ru.wikipedia.org/wiki/Прага">Праги</a>. Там полиция добрее. Там легко получить на несколько дней <a href="https://ru.wikipedia.org/wiki/вид_на_жительство">вид на жительство</a>. Ну, а потом будет видно.
+            Может, я найду отца, и он мне поможет. Я слыхал, что он там.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
