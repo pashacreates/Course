@@ -1,0 +1,29 @@
+table {
+    margin: 30px;
+}
+
+tr:hover {
+    background-color: #bbbbbb;
+    transition: all .1s ease-in 0s;
+}
+
+thead {
+    color: #fff;
+    font-weight: 500;
+    background-color: #a70707;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+thead tr td {
+    background-color: #a70707;
+    transition: all .2s ease-in 0s;
+}
+
+thead tr td:hover {
+    background-color: #dc143c;
+}
+
+thead tr td:active {
+    background-color: #9e2039;
+}
