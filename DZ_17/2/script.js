@@ -17,7 +17,6 @@ function onLoadData(text) {
         return object;
     });
     renderTable(items, names);
-    console.log(items)
 }
 
 const table = document.getElementById('table');
@@ -105,18 +104,5 @@ function sortIt(items, names) {
                 return 0;
             }), names);
         }
-        console.log(e.target)
     })
-}
-
-function sortThis(items, param) {
-    renderTable(items.sort(function(a, b) {
-        if (a.age > b.age) {
-            return 1;
-        }
-        if (a.age < b.age) {
-            return -1;
-        }
-        return 0;
-    }), names);
 }

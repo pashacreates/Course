@@ -1,5 +1,6 @@
 table {
     margin: 30px;
+    font-weight: 500;
 }
 
 tr:hover {
@@ -9,7 +10,7 @@ tr:hover {
 
 thead {
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
     background-color: #a70707;
     text-transform: uppercase;
     cursor: pointer;
