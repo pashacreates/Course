@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 11</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th>ФИО</th>
+                <th>Должность</th>
+                <th>Дата начала работы</th>
+                <th>Зарплата</th>
+                <th></th>
+            </tr>
+            <tbody id='tbody' class="">
+
+            </tbody>
+            <tfoot id="tfoot">
+                <tr>
+                    <td><input class="form-control" type='text' id='fullName' /></td>
+                    <td><input class="form-control" type='text' id='post' /></td>
+                    <td><input class="form-control" type='date' id='startDate' /></td>
+                    <td><input class="form-control" type='number' id='salary' /></td>
+                    <td><button id='add' class="btn btn-success">Добавить</button></td>
+                </tr>
+            </tfoot>
+    </table>
+    <button class="btn btn-primary" id='sortByDate'>Отсортировать по дате начала работы</button>
+    <button class="btn btn-primary" id='sortBySalary'>Отсортироват по зарплате</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
