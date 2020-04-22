@@ -1,0 +1,61 @@
+[{
+    "addres": "Minsk, ave. Independence, 112",
+    "visitorsPerDay": 245,
+    "area": 120,
+    "yearOfBuild": 2010
+}, {
+    "addres": "Minsk, ave. Masherova, 112",
+    "visitorsPerDay": 132,
+    "area": 90,
+    "yearOfBuild": 2011
+}, {
+    "addres": "Minsk, st. Alibegova, 22",
+    "visitorsPerDay": 87,
+    "area": 55,
+    "yearOfBuild": 2013
+}, {
+    "addres": "Minsk, st. Gromova, 77",
+    "visitorsPerDay": 364,
+    "area": 210,
+    "yearOfBuild": 2015
+}, {
+    "addres": "Minsk, st. Pritytsky, 67",
+    "visitorsPerDay": 364,
+    "area": 210,
+    "yearOfBuild": 2015
+}, {
+    "addres": "Minsk, st. Peresady, 4",
+    "visitorsPerDay": 12,
+    "area": 21,
+    "yearOfBuild": 2019
+}, {
+    "addres": "Minsk, st. Odina, 9",
+    "visitorsPerDay": 364,
+    "area": 210,
+    "yearOfBuild": 2015
+}, {
+    "addres": "Minsk, st. Alibegova, 22",
+    "visitorsPerDay": 87,
+    "area": 55,
+    "yearOfBuild": 2013
+}, {
+    "addres": "Minsk, st. Osipova, 32",
+    "visitorsPerDay": 364,
+    "area": 210,
+    "yearOfBuild": 2015
+}, {
+    "addres": "Minsk, st. Pritytsky, 67",
+    "visitorsPerDay": 364,
+    "area": 210,
+    "yearOfBuild": 2015
+}, {
+    "addres": "Minsk, st. Peresady, 4",
+    "visitorsPerDay": 12,
+    "area": 21,
+    "yearOfBuild": 2019
+}, {
+    "addres": "Minsk, st. Odina, 9",
+    "visitorsPerDay": 364,
+    "area": 210,
+    "yearOfBuild": 2015
+}]
