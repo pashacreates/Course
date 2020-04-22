@@ -21,6 +21,7 @@ const staff = [{
 }];
 const tbody = document.getElementById('tbody');
 
+
 const renderStaff = function() {
     tbody.innerText = "";
     for (let i = 0; i < staff.length; i++) {
