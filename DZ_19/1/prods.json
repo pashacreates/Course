@@ -1,0 +1,61 @@
+[{
+    "name": "apple",
+    "img": "src=img/apple.jpg",
+    "descr": "green apple",
+    "quantity": 123
+}, {
+    "name": "avocado",
+    "img": "src=img/avocado.jpg",
+    "descr": "avocado from Mexico",
+    "quantity": 435
+}, {
+    "name": "coconut",
+    "img": "src=img/coconut.jpg",
+    "descr": "Coconut he and coconut in Africa",
+    "quantity": 314
+}, {
+    "name": "grapefruit",
+    "img": "src=img/grapefruit.jpg",
+    "descr": "grapefruit with bitterness",
+    "quantity": 556
+}, {
+    "name": "kiwi",
+    "img": "src=img/kiwi.jpg",
+    "descr": "this is not bird",
+    "quantity": 1111
+}, {
+    "name": "mango",
+    "img": "src=img/mango.jpg",
+    "descr": "Я красивый и вкусный. Ты мог бы купить меня, но ты можешь только добавить меня в корзину. Или удалить. Ха-Ха.",
+    "quantity": 777
+}, {
+    "name": "banana",
+    "img": "src=img/banana.jpg",
+    "descr": "green banana",
+    "quantity": 848
+}, {
+    "name": "orange",
+    "img": "src=img/orange.jpg",
+    "descr": "big orange",
+    "quantity": 97
+}, {
+    "name": "pear",
+    "img": "src=img/pear.jpg",
+    "descr": "pear weighs - you can not eat",
+    "quantity": 108
+}, {
+    "name": "papaya",
+    "img": "src=img/papaya.jpg",
+    "descr": "pa pa pa-pa-pa-ya",
+    "quantity": 7
+}, {
+    "name": "pineapple",
+    "img": "src=img/pineapple.jpg",
+    "descr": "A pineapple is a tropical fruit with a tough outer shell that looks like a pine cone with edible yellow fruit inside",
+    "quantity": 235
+}, {
+    "name": "quince",
+    "img": "src=img/quince.jpg",
+    "descr": "What is quince?",
+    "quantity": 13
+}]

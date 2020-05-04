@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Raleway:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+body {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0px 40px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 12px;
+    text-align: left;
+    color: white;
+    background-color: #00b86b;
+    z-index: 20;
+}
+
+.cart {
+    position: fixed;
+    top: 3px;
+    right: 40px;
+    width: 100px;
+    height: 50px;
+    color: yellowgreen;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 21;
+}
+
+.cart span {
+    color: yellowgreen;
+    line-height: 50px;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.cart span:nth-child(2) {
+    float: right;
+    padding-right: 20px;
+    padding-left: 0px;
+    font-size: 25px;
+}
+
+.cartList {
+    position: absolute;
+    top: 50px;
+    right: 00px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f7c2;
+    transition: all ease-in 160ms;
+}
+
+.cartList li {
+    height: 25px;
+    padding: 10px 14px;
+    font-weight: 600;
+    list-style: none;
+}
+
+.cartList li:hover {
+    color: #fff;
+    background-color: yellowgreen;
+}
+
+.unvisible {
+    width: 0px;
+    height: 0px;
+}
+
+.unvisible li {
+    display: none;
+}
+
+.to-cart {
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: yellowgreen;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    transition: all ease-in 160ms;
+}
+
+.to-cart:hover {
+    background-color: #80ad27;
+}
+
+.remove {
+    color: #fff;
+    background-color: tomato;
+}
+
+.remove:hover {
+    background-color: #ee3939;
+}
+
+img {
+    width: calc(100% - 2px);
+    padding: 1px;
+}
+
+#list {
+    display: flex;
+    margin-top: 75px;
+    padding: 5px 7%;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#list li {
+    position: relative;
+    width: calc(25% - 20px);
+    list-style: none;
+    margin: 10px 5px;
+    padding-bottom: 30px;
+    transition: all ease-in 200ms;
+}
+
+#list li:hover {
+    background-color: #f8f7b2;
+}
+
+p:first-child {
+    margin: 0px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+p:nth-child(3) {
+    font-size: 0.7em;
+    font-weight: 400;
+    color: rgb(56, 114, 114);
+}
+
+p:nth-child(3)::first-letter {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: green;
+}
+
+p:nth-child(4) {
+    font-size: .5em;
+}
