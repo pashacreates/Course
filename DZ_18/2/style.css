@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,400;1,600&display=swap');
+body,
+p {
+    margin: 0;
+    padding: 0;
+    font: 1em 'Montserrat', sans-serif;
+}
+
+.start {
+    position: relative;
+    height: 33vh;
+    width: 100vw;
+    text-transform: uppercase;
+    font-size: 7em;
+    color: #240d50;
+    transition: all .5s ease 0s;
+}
+
+.start p {
+    position: absolute;
+    left: calc(50% - 382px);
+    bottom: -29px;
+    font-weight: 900;
+}
+
+.end {
+    height: 0px;
+    font-size: .0em;
+}
+
+.request {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    padding: 10px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #240d50;
+    transition: all .5s ease 0s;
+}
+
+.request-start {
+    font-size: 1.8em;
+    height: 20%;
+    top: 33%;
+}
+
+.request input {
+    padding: 3px 10px;
+    margin: 0 10px;
+    height: 30px;
+    width: 120px;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #fdfbee;
+    box-sizing: border-box;
+    transition: all .5s ease 0s;
+}
+
+.request-start input {
+    font-size: 1.2rem;
+    height: 45px;
+}
+
+.request label {
+    padding: 7px;
+}
+
+#desc {
+    width: 30%;
+}
+
+#but {
+    cursor: pointer;
+    color: #fff;
+    background-color: #c90456;
+    text-transform: uppercase;
+}
+
+#but:hover {
+    background-color: #f34570;
+}
+
+.job-list {
+    margin: 60px 40px 0px 40px;
+    list-style: none;
+}
+
+.job-list>li {
+    padding: 15px 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 5px solid black;
+    background-color: #f8f3ee;
+}
+
+.job-list h3 {
+    font-size: 1.7rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.company-info :nth-child(1) {
+    font-weight: 400;
+}
+
+.company-info :nth-child(2) {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.company-info :nth-child(2) p {
+    font-weight: 900;
+    font-style: normal;
+}
+
+.company-info :nth-child(3) {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.company-info :nth-child(4) {
+    font-weight: 900;
+    font-size: .9rem;
+    margin-top: 20px;
+    color: #c90456;
+}
+
+.logo img {
+    max-height: 110px;
+}
+
+.desc {
+    padding: 0px 20px;
+}
+
+#preloader {
+    position: fixed;
+    top: 60%;
+    left: 48%;
+}
+
+
+/* далее чужой код */
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #c90456;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(24px, 0);
+    }
+}

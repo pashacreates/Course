@@ -1,0 +1,16 @@
+[{
+    "addres": "Minsk, ave. Pobediteley , 95",
+    "visitorsPerDay": 132,
+    "area": 121,
+    "yearOfBuild": 1986
+}, {
+    "addres": "Minsk, st. L.Bedy, 32",
+    "visitorsPerDay": 89,
+    "area": 45,
+    "yearOfBuild": 2005
+}, {
+    "addres": "Minsk, ave. Independence, 22",
+    "visitorsPerDay": 320,
+    "area": 135,
+    "yearOfBuild": 1994
+}]

@@ -1,0 +1,37 @@
+[{
+    "id": 2130077779,
+    "name": "Cats&Dogs",
+    "fYear": 2010,
+    "description": "Goods for pets",
+    "shops": "JSON/C&D.json"
+}, {
+    "id": 1011101001,
+    "name": "Mario",
+    "fYear": 1986,
+    "description": "Sanitary engineering shop",
+    "shops": "JSON/mario.json"
+}, {
+    "id": 1123581321,
+    "name": "VINYL",
+    "fYear": 1976,
+    "description": "Vinyl record store",
+    "shops": "JSON/vinyl.json"
+}, {
+    "id": 2130077779,
+    "name": "Cats&Dogs",
+    "fYear": 2010,
+    "description": "Goods for pets",
+    "shops": "JSON/C&D.json"
+}, {
+    "id": 1011101001,
+    "name": "Mario",
+    "fYear": 1986,
+    "description": "Sanitary engineering shop",
+    "shops": "JSON/mario.json"
+}, {
+    "id": 1123581321,
+    "name": "VINYL",
+    "fYear": 1976,
+    "description": "Vinyl record store",
+    "shops": "JSON/vinyl.json"
+}]
