@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;0,900;1,300;1,400;1,600;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+table {
+    width: 870px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+img {
+    width: 40px;
+}
+
+thead tr {
+    background-color: #0ac6ff;
+}
+
+th {
+    height: 20px;
+    font-weight: 900;
+}
+
+.weather-block {
+    padding: 20px;
+}
+
+#weather tr {
+    background-color: #0ac6ff;
+}
+
+#weather tr:nth-child(2n) {
+    background-color: #76dcfc;
+}
+
+#weather td {
+    padding: 10px;
+}
+
+#weather td:first-child {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
