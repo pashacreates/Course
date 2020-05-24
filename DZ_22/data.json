@@ -1,0 +1,46 @@
+[{
+    "title": "Париж",
+    "latitude": 55.156208,
+    "longitude": 27.385263,
+    "time": 0
+}, {
+    "title": "Бухалово",
+    "latitude": 55.525194,
+    "longitude": 28.228226,
+    "time": 40
+}, {
+    "title": "Рай",
+    "latitude": 54.695634,
+    "longitude": 29.943604,
+    "time": 20
+}, {
+    "title": "Новые Чемоданы",
+    "latitude": 54.208409,
+    "longitude": 30.453060,
+    "time": 15
+}, {
+    "title": "Гадиловичи",
+    "latitude": 53.076868,
+    "longitude": 30.270658,
+    "time": 20
+}, {
+    "title": "Буда",
+    "latitude": 53.090576,
+    "longitude": 28.903906,
+    "time": 20
+}, {
+    "title": "Слуцк",
+    "latitude": 53.052153,
+    "longitude": 27.554493,
+    "time": 25
+}, {
+    "title": "Привольный",
+    "latitude": 53.800455,
+    "longitude": 27.802524,
+    "time": 20
+}, {
+    "title": "Падар",
+    "latitude": 53.766959,
+    "longitude": 28.576151,
+    "time": 0
+}]
