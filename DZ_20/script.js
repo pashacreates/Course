@@ -35,22 +35,19 @@ getXhr('https://freegeoip.app/json/').then(function(coords) {
     console.log(error);
 });
 
-//добавим Number метод перевода углов в радианы 
-Number.prototype.toRad = function() {
-    return this * Math.PI / 180;
-}
 
 async function getDist() {
     const coords = await getCoords();
     const coordsIp = await getXhr('https://freegeoip.app/json/');
+    const toRad = Math.PI / 180;
     const lat1 = coords.latitude,
         long1 = coords.longitude,
         lat2 = coordsIp.latitude,
         long2 = coordsIp.longitude;
     const R = 6371; //Радиус Земли в км
     //используя формулу гаверсинусов находим расстояние 
-    const dist = 2 * R * Math.asin(((Math.sin((lat2.toRad() - lat1.toRad()) / 2) ** 2) +
-        (Math.cos(lat1.toRad()) * Math.cos(lat1.toRad()) * (Math.sin((long2.toRad() - long1.toRad()) / 2) ** 2))) ** (1 / 2));
+    const dist = 2 * R * Math.asin(((Math.sin((lat2 * toRad - lat1 * toRad) / 2) ** 2) +
+        (Math.cos(lat1 * toRad) * Math.cos(lat1 * toRad) * (Math.sin((long2 * toRad - long1 * toRad) / 2) ** 2))) ** (1 / 2));
 
     renderDist((dist * 1000).toFixed());
 }
